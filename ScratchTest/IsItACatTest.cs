@@ -6,9 +6,9 @@ namespace ScratchTest
     public class IsItACatTest
     {
         [Theory]
-        //[InlineData("woof")]
-        //[InlineData("squeak")]
-        //[InlineData("neigh")]
+        [InlineData("woof")]
+        [InlineData("squeak")]
+        [InlineData("neigh")]
         [InlineData("meow")]
         public void DoesItMeow(string sound)
         {
